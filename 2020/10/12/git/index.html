@@ -22,17 +22,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Repository for trivial stuff">
-<meta property="og:type" content="website">
-<meta property="og:title" content="uh-huh">
-<meta property="og:url" content="http://example.com/archives/2020/index.html">
+  <meta name="description" content="Git basicsAdd your name and email 12git config --global username &lt;username&gt;git config --global email &lt;email&gt;  initialize a folder 1git init  change some code and see what changed 1git stat">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git Command">
+<meta property="og:url" content="http://example.com/2020/10/12/git/index.html">
 <meta property="og:site_name" content="uh-huh">
-<meta property="og:description" content="Repository for trivial stuff">
+<meta property="og:description" content="Git basicsAdd your name and email 12git config --global username &lt;username&gt;git config --global email &lt;email&gt;  initialize a folder 1git init  change some code and see what changed 1git stat">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-10-12T10:34:00.000Z">
+<meta property="article:modified_time" content="2020-10-12T11:29:07.284Z">
 <meta property="article:author" content="linwoods">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/archives/2020/">
+<link rel="canonical" href="http://example.com/2020/10/12/git/">
 
 
 <script id="page-configurations">
@@ -40,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Archive | uh-huh</title>
+  <title>Git Command | uh-huh</title>
   
 
 
@@ -148,90 +150,118 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">Um..! 3 posts in total. Keep on posting.</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/12/git/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="linwoods">
+      <meta itemprop="description" content="Repository for trivial stuff">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="uh-huh">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Git Command
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-10-12 18:34:00 / Modified: 19:29:07" itemprop="dateCreated datePublished" datetime="2020-10-12T18:34:00+08:00">2020-10-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/LaTeX/" itemprop="url" rel="index"><span itemprop="name">LaTeX</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
-    </div>
+        <h1 id="Git-basics"><a href="#Git-basics" class="headerlink" title="Git basics"></a>Git basics</h1><p>Add your name and email</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global username &lt;username&gt;</span><br><span class="line">git config --global email &lt;email&gt;</span><br></pre></td></tr></table></figure>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+<p>initialize a folder</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-10-12T18:34:00+08:00"
-              content="2020-10-12">
-          10-12
-        </time>
-      </div>
+<p>change some code and see what changed</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/10/12/git/" itemprop="url">
-            <span itemprop="name">Git Command</span>
-          </a>
-      </div>
+<p>to discard change(s) you made!</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git restore &lt;file&gt;</span><br></pre></td></tr></table></figure>
 
-    </header>
-  </article>
+<p>put file(s) in stage</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;file&gt;</span><br><span class="line">git add . <span class="comment"># for all file(s)</span></span><br></pre></td></tr></table></figure>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+<p>unstage file(s)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rm --cached &lt;file&gt;</span><br></pre></td></tr></table></figure>
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-10-11T14:22:39+08:00"
-              content="2020-10-11">
-          10-11
-        </time>
-      </div>
+<p>commit the staged file</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &lt;message&gt;</span><br><span class="line">git commit -m &lt;enter&gt; <span class="comment"># prompt you to add some info</span></span><br><span class="line">git commit -am &lt;message&gt; <span class="comment"># commit change(s) without staging</span></span><br></pre></td></tr></table></figure>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/10/11/SetupBlog/" itemprop="url">
-            <span itemprop="name">Create your own blog site with Github Pages & Hexo</span>
-          </a>
-      </div>
+<p>see commit history</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure>
 
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-10-10T22:34:45+08:00"
-              content="2020-10-10">
-          10-10
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/10/10/math/" itemprop="url">
-            <span itemprop="name">math</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+<h3 id="see-change-detail"><a href="#see-change-detail" class="headerlink" title="see change detail"></a>see change detail</h3><p>Difference between commits</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git diff <span class="comment"># Changes in the working tree not yet staged for the next commit.</span></span><br><span class="line">git diff &lt;commit old&gt; &lt;commit new&gt;</span><br><span class="line">git diff HAED HEAD^ <span class="comment"># diffenrence between the current and last commit</span></span><br></pre></td></tr></table></figure>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/10/11/SetupBlog/" rel="prev" title="Create your own blog site with Github Pages & Hexo">
+      <i class="fa fa-chevron-left"></i> Create your own blog site with Github Pages & Hexo
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -284,6 +314,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Git-basics"><span class="nav-number">1.</span> <span class="nav-text">Git basics</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#see-change-detail"><span class="nav-number">1.0.1.</span> <span class="nav-text">see change detail</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
